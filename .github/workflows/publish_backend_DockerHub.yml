@@ -36,7 +36,7 @@ jobs:
         with:
           context: .
           push: true
-          repository: ${{ github.repository }}
-          tag_with_ref: true
-          tag_with_sha: true
+          # repository: ${{ github.repository }}
+          # tag_with_ref: true
+          # tag_with_sha: true
           tags: ${{ github.sha }}
